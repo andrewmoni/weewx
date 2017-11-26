@@ -530,6 +530,8 @@ while(defined($_ = <STDIN>)) {
              /wbug: read/ ||
              /wbug: url/ ||
              /wbug: data/ ||
+             /raw: / ||
+             /historygenerator.pyc/ ||
              /GaugeGenerator:/) {
         # ignore
     } elsif (! /weewx/) {
